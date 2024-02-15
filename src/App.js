@@ -1,8 +1,12 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './App.css';
-import MakingRoutes from './component/router and Navigation/MakingRoutes';
+import CreateNote from './component/ReactRedux/component/createNote';
+import ListNotes from './component/ReactRedux/component/listNotes';
+// import MakingRoutes from './component/router and Navigation/MakingRoutes';
 // import DoSome from './component/Form/DoSome';
 // import Counter from './component/Counter';
+// import Child1 from './component/ReactRedux/component/Child1';
+// import Child2 from './component/ReactRedux/component/Child2';
 // import Fruit from './component/Fruit';
 // import InputFruit from './component/InputFruit';
 // import Notes from './component/Notes';
@@ -23,6 +27,10 @@ function App() {
   // }
   return (
     <div className="App">
+      <CreateNote/>
+      <ListNotes/>
+      {/* <Child1/>
+      <Child2/> */}
       {/* <Counter/> */}
       {/* <Fruit/> */}
       {/* <InputFruit/> */}
@@ -36,7 +44,7 @@ function App() {
       {/* <NewsApp/> */}
       {/* <Practise/> */}
       {/* <DoSome /> */}
-      <MakingRoutes/>
+      {/* <MakingRoutes/> */}
     </div>
   );
 }
